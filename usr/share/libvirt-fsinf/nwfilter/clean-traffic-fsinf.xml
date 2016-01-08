@@ -1,4 +1,5 @@
 <filter name='clean-traffic-fsinf' chain='root'>
+  <uuid>f034fc64-9b8a-4e9c-8a48-7a2a17d94e67</uuid>
   <filterref filter='no-mac-spoofing'/>
   <filterref filter='no-ip-spoofing'/>
   <rule action='accept' direction='out' priority='-650'>

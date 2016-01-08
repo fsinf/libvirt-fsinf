@@ -1,3 +1,9 @@
+libvirt-fsinf (0.2016.01.08.2) unstable; urgency=low
+
+  * Add uuid to clean-traffic-fsinf nwfilter.
+
+ -- Mathias Ertl <mati@fsinf.at>  Fri, 08 Jan 2016 20:25:50 +0100
+
 libvirt-fsinf (0.2016.01.08.1) unstable; urgency=low
 
   * Initial version.
