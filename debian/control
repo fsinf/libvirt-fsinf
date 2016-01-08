@@ -10,7 +10,7 @@ Vcs-Git: https://github.com/fsinf/libvirt-fsinf.git
 
 Package: libvirt-fsinf
 Architecture: all
-Depends: ${misc:Depends}, libvirt0
+Depends: ${misc:Depends}, libvirt0, libvirt-clients
 Description: additional configuration files for libvirt
  This package contains various additional configuration files for libvirt.
  Currently it contains only one nwfilter, clean-traffic-fsinf.
