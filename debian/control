@@ -1,0 +1,16 @@
+Source: libvirt-fsinf
+Section: misc
+Priority: optional
+Maintainer: Mathias Ertl <mati@fsinf.at>
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9)
+Homepage: https://github.com/fsinf/libvirt-fsinf
+Vcs-Browser: https://github.com/fsinf/libvirt-fsinf
+Vcs-Git: https://github.com/fsinf/libvirt-fsinf.git
+
+Package: libvirt-fsinf
+Architecture: all
+Depends: ${misc:Depends}, libvirt0
+Description: additional configuration files for libvirt
+ This package contains various additional configuration files for libvirt.
+ Currently it contains only one nwfilter, clean-traffic-fsinf.
