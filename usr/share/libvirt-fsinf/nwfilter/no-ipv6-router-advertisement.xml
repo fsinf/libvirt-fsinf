@@ -1,0 +1,9 @@
+<filter name='no-ipv6-router-advertisement' chain='root' priority='-690'>
+  <uuid>c7d0625c-fabc-4c95-a59f-79242caf5701</uuid>
+  <rule action='drop' direction='out' priority='600'>
+    <icmpv6 type='134'/>
+  </rule>
+  <rule action='drop' direction='out' priority='600'>
+    <icmpv6 type='153'/>
+  </rule>
+</filter

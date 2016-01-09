@@ -1,0 +1,4 @@
+<filter name='allow-incoming-ipv6' chain='ipv6' priority='-680'>
+  <uuid>5131cd5d-06e2-4eb1-a62c-7141615f441b</uuid>
+  <rule action='accept' direction='in' priority='500'/>
+</filter>

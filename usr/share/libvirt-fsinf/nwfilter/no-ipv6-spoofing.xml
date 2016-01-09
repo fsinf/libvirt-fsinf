@@ -1,0 +1,7 @@
+<filter name='no-ipv6-spoofing' chain='ipv6-ip' priority='-710'>
+  <uuid>ee1ced99-1caa-46d5-9b01-22ad7fe64ab6</uuid>
+  <rule action='return' direction='out' priority='500'>
+    <ipv6 srcipaddr='$IPV6'/>
+  </rule>
+  <rule action='drop' direction='out' priority='1000'/>
+</filter>

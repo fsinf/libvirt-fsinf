@@ -1,3 +1,13 @@
+libvirt-fsinf (0.2016.01.09.1) unstable; urgency=low
+
+  * Add nwfilters that clean-traffic-fsinf depends on:
+    * allow-incoming-ipv6
+    * no-dhcpv6-server
+    * no-ipv6-router-advertisement
+    * no-ipv6-spoofing
+
+ -- Mathias Ertl <mati@fsinf.at>  Sat, 09 Jan 2016 12:48:30 +0100
+
 libvirt-fsinf (0.2016.01.08.2) unstable; urgency=low
 
   * Add uuid to clean-traffic-fsinf nwfilter.

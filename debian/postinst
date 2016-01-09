@@ -4,7 +4,9 @@ set -e
 
 case "$1" in
     configure|reconfigure)
-        virsh nwfilter-define /usr/share/libvirt-fsinf/nwfilter/clean-traffic-fsinf.xml
+        for filename in /usr/share/libvirt-fsinf/nwfilter/*.xml; do
+            virsh nwfilter-define $filename
+        done
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
